@@ -1,0 +1,20 @@
+# Baseline dependencies for the newsletter WAT pipeline.
+
+# Config + HTTP
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Gemini (text drafting + native image generation, same API key)
+google-genai>=2.0.0
+Pillow>=10.0.0
+
+# Research (free): metasearch + main-content extraction
+ddgs>=9.0.0
+trafilatura>=1.12.0
+lxml>=5.0.0
+
+# Newsletter authoring + rendering
+pydantic>=2.0.0
+jinja2>=3.1.0
+premailer>=3.10.0
+markdown>=3.5.0
